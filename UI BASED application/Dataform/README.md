@@ -2,17 +2,42 @@
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+## User Form Application
 
-The workspace contains two folders by default, where:
+## Description
+This Java Swing application enables users to input and manage personal details such as name, phone number, email, and address. The application features:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Input Form: Collects user information (first name, last name, phone number, email, and address).
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Submit: Stores the input data into a MySQL database.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Reset: Clears the form fields.
 
-## Dependency Management
+View All: Displays all stored user information in a separate window with an option to delete entries.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Requirements
+
+Java Development Kit (JDK)
+
+MySQL Database
+
+JDBC Driver for MySQL
+
+
+## clone
+
+Clone the repository.
+
+Add the JDBC driver to your project classpath.
+
+Update the database connection URL, username, and password in the storeData and viewAllUsers methods.
+
+Run the View class to start the application.
+
+##  Usage
+
+Enter user details and click Submit to save.
+
+Use Reset to clear inputs.
+
+Click View All to see all records and delete as needed.
