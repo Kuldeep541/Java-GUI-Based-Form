@@ -4,6 +4,11 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
 
 ## User Form Application
 
+
+This Java Swing application collects and manages user information. Features include input forms, database storage via MySQL, and displaying records. Users can submit, reset, and view all entries with deletion options. Perfect for basic user data management.
+
+
+
 ## Description
 This Java Swing application enables users to input and manage personal details such as name, phone number, email, and address. The application features:
 
